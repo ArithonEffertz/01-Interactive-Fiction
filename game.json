@@ -1,0 +1,626 @@
+{
+    "passages": [
+      {
+        "text": "//You've just crashed your car and you're lucky to be alive. Your phone is dead and you're in the middle of nowhere, surrounded by a thick forest.//\n\n[[Go into the Forest->Forest]]\n[[Follow the road back the way you came->Road]]",
+        "links": [
+          {
+            "name": "Go into the Forest",
+            "link": "Forest",
+            "pid": "2"
+          },
+          {
+            "name": "Follow the road back the way you came",
+            "link": "Road",
+            "pid": "3"
+          }
+        ],
+        "name": "Beginning",
+        "pid": "1",
+        "position": {
+          "x": "865.6666666666667",
+          "y": "75"
+        }
+      },
+      {
+        "text": "//You wander into the forest in search of help. Surely someone would be out here, right? You get deeper into the forest and when you look around, you're lost. Now you're hoping someone wouldn't be out here.//\n\n[[Go deeper into the forest->Forest 2]]\n[[Go back to the wreck->Lost]]",
+        "links": [
+          {
+            "name": "Go deeper into the forest",
+            "link": "Forest 2",
+            "pid": "5"
+          },
+          {
+            "name": "Go back to the wreck",
+            "link": "Lost",
+            "pid": "6"
+          }
+        ],
+        "name": "Forest",
+        "pid": "2",
+        "position": {
+          "x": "666.3333333333334",
+          "y": "255"
+        }
+      },
+      {
+        "text": "//You walk for what seems like ages until you come across the sight of a wreck. You rush over to find that it's your car.//\n\n[[Go into the Forest->Forest]]\n[[Follow the road again->Road 2]]",
+        "links": [
+          {
+            "name": "Go into the Forest",
+            "link": "Forest",
+            "pid": "2"
+          },
+          {
+            "name": "Follow the road again",
+            "link": "Road 2",
+            "pid": "4"
+          }
+        ],
+        "name": "Road",
+        "pid": "3",
+        "position": {
+          "x": "852.3333333333334",
+          "y": "256.6666666666667"
+        }
+      },
+      {
+        "text": "//You find yourself back at the same crash site. Something's not right here.//\n\n[[Follow the road->Road 2]]\n[[Go into the Forest->Forest]]",
+        "links": [
+          {
+            "name": "Follow the road",
+            "link": "Road 2",
+            "pid": "4"
+          },
+          {
+            "name": "Go into the Forest",
+            "link": "Forest",
+            "pid": "2"
+          }
+        ],
+        "name": "Road 2",
+        "pid": "4",
+        "position": {
+          "x": "857.3333333333334",
+          "y": "418.3333333333333"
+        }
+      },
+      {
+        "text": "//You wander farther into the forest and it somehow gets darker. As everything is about to turn pitch black, you see a light in the distance.//\n\n[[Go towards the light->Cabin]]\n[[Turn around->Lost]]",
+        "links": [
+          {
+            "name": "Go towards the light",
+            "link": "Cabin",
+            "pid": "11"
+          },
+          {
+            "name": "Turn around",
+            "link": "Lost",
+            "pid": "6"
+          }
+        ],
+        "name": "Forest 2",
+        "pid": "5",
+        "position": {
+          "x": "490",
+          "y": "358"
+        }
+      },
+      {
+        "text": "//You try walking back the way you came but the forest just gets thicker and you realize that the road is nowhere to be seen. You look around and see a silhouette of a little girl, right next to a giant shrub.//\n\n[[Leave->Run]]\n[[Go towards the girl->Certain Death]]",
+        "links": [
+          {
+            "name": "Leave",
+            "link": "Run",
+            "pid": "7"
+          },
+          {
+            "name": "Go towards the girl",
+            "link": "Certain Death",
+            "pid": "8"
+          }
+        ],
+        "name": "Lost",
+        "pid": "6",
+        "position": {
+          "x": "672.6666666666667",
+          "y": "417"
+        }
+      },
+      {
+        "text": "//You made the smart choice to leave the small girl because she gives off an eerie feeling. You turn around and as you do, you step on a branch.//\n\n\n//It's kind of loud.//\n\n\n//You turn around and see the little girl with her head turned completely around and her eyes glowing with a soulless white. The shrub next to her starts to vibrate and glow. 2 dark hands emerge from the shrub and it starts to move towards you.//\n\n[[Admire the scenery->Certain death 2]]\n[[BOOK IT->Run 2]]",
+        "links": [
+          {
+            "name": "Admire the scenery",
+            "link": "Certain death 2",
+            "pid": "9"
+          },
+          {
+            "name": "BOOK IT",
+            "link": "Run 2",
+            "pid": "10"
+          }
+        ],
+        "name": "Run",
+        "pid": "7",
+        "position": {
+          "x": "671",
+          "y": "560"
+        }
+      },
+      {
+        "text": "//You walk closer to the girl and see that her back is turned to you.//\n\n''Hello?''\n\n//No response.//\n\n''Hey.'' //You reach out and touch the girl's shoulder.//\n\n//She turns her head to look at you with soulless white eyes. You realize she's holding onto something with an outstretched hand towards the bush. The bush suddenly starts to shake and glow as a giant shadowy hand lurches out of the shrub and grabs you.//\n\n\n\n//Everything goes dark.//\n\n[[You died. Restart->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Certain Death",
+        "pid": "8",
+        "position": {
+          "x": "1321.3333333333335",
+          "y": "359.66666666666663"
+        }
+      },
+      {
+        "text": "//You stare in shock and awe of this terrifying creature that's barreling towards you at record speed. You tell your legs to move but you can't help but stare into the abyss that this monster is. It runs up to you and slams you onto the ground, knocking the wind out of you. The little girl walks up to you.//\n\n''Wanna play?''\n\n//She grins as the monster opens its jaws and devours you.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Certain death 2",
+        "pid": "9",
+        "position": {
+          "x": "672",
+          "y": "664"
+        }
+      },
+      {
+        "text": "//You turn back around and book it. You don't look back but you can here it breaking trees and thumping the ground. You hear the voice of a little girl behind you.//\n\n''Wanna play?''\n\n//You most certainly ''do not''.//\n\n//You keep running until you reach a small river.//\n\n[[Run upstream->Upstream]]\n[[Run downstream->Downstream]]",
+        "links": [
+          {
+            "name": "Run upstream",
+            "link": "Upstream",
+            "pid": "14"
+          },
+          {
+            "name": "Run downstream",
+            "link": "Downstream",
+            "pid": "15"
+          }
+        ],
+        "name": "Run 2",
+        "pid": "10",
+        "position": {
+          "x": "776.6666666666667",
+          "y": "663.9999999999999"
+        }
+      },
+      {
+        "text": "//You arive at a cabin. You peer through the windows and see a basic kitchen setup with the oven on and a small little dining area.//\n\n[[Knock->Polite]]\n[[Bust in->Rude Death]]\n[[Leave->Lost]]",
+        "links": [
+          {
+            "name": "Knock",
+            "link": "Polite",
+            "pid": "12"
+          },
+          {
+            "name": "Bust in",
+            "link": "Rude Death",
+            "pid": "13"
+          },
+          {
+            "name": "Leave",
+            "link": "Lost",
+            "pid": "6"
+          }
+        ],
+        "name": "Cabin",
+        "pid": "11",
+        "position": {
+          "x": "418.3333333333333",
+          "y": "466.3333333333333"
+        }
+      },
+      {
+        "text": "//You knock on the door.//\n\n''Coming!''\n\n//Sounds like an older lady.//\n\n//Various locks start unlocking as a sweet old lady opens the door.//\n\n''How can I help you, dearie?''\n\n[[Ask her where you are->Answers]]\n[[Ask if you can stay the night->Hospitality]]",
+        "links": [
+          {
+            "name": "Ask her where you are",
+            "link": "Answers",
+            "pid": "16"
+          },
+          {
+            "name": "Ask if you can stay the night",
+            "link": "Hospitality",
+            "pid": "17"
+          }
+        ],
+        "name": "Polite",
+        "pid": "12",
+        "position": {
+          "x": "406.6666666666667",
+          "y": "576.3333333333333"
+        }
+      },
+      {
+        "text": "//You kick open the door surprisingly easily, Spartan kick style. As you march into the house, the lights go out.//\n\n//The door slams shut behind you.//\n\n//You struggle with the door, desperately trying to open it. A light flicks on. You turn around.//\n\n//A candle is flickering as an old lady is suddernly sitting at the table now.//\n\n''Now, now, dearie. That's no way to enter a house. I'll have to teach you some manners on how not to be //RUDE!!//''\n\n//The light goes out and the lady was gone. You feel wrinkly hands on the sides of your head from behind you.//\n\n''Naughty, naughty.''\n\n//She snaps your neck.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Rude Death",
+        "pid": "13",
+        "position": {
+          "x": "516.6666666666666",
+          "y": "573"
+        }
+      },
+      {
+        "text": "//You start running uphill and you turn your head to see a tree fly towards the area you once were. You push yourself harder to run faster as you find a cave where the river is coming from. You rush in and are immediately overcome by darkness.//\n\n[[Go deeper into the cave->Dark Death]]\n[[Go to the side of the cave and hide behind the nearest rock->Hide and Seek 2]]\n[[Turn back->Dumb Death]]",
+        "links": [
+          {
+            "name": "Go deeper into the cave",
+            "link": "Dark Death",
+            "pid": "30"
+          },
+          {
+            "name": "Go to the side of the cave and hide behind the nearest rock",
+            "link": "Hide and Seek 2",
+            "pid": "31"
+          },
+          {
+            "name": "Turn back",
+            "link": "Dumb Death",
+            "pid": "32"
+          }
+        ],
+        "name": "Upstream",
+        "pid": "14",
+        "position": {
+          "x": "673",
+          "y": "771"
+        }
+      },
+      {
+        "text": "//You jump into the river and ride it down hill. You look behind you and the creature threw a tree at the place where you once were. It runs up to the stream and looks up then down. It sees you and starts shuddering. The little girl on its shoulder starts clapping and points to you.//\n\n''Oh! We're playing Tag!''\n\n//The monster starts running towards you. You turn back around and lean forward to gain speed. You hear the rushing water get louder and you see the river drop off ahead.//\n\n[[Jump to the side->Escape]]\n[[Ride down the waterfall->Hide and Seek]]",
+        "links": [
+          {
+            "name": "Jump to the side",
+            "link": "Escape",
+            "pid": "18"
+          },
+          {
+            "name": "Ride down the waterfall",
+            "link": "Hide and Seek",
+            "pid": "19"
+          }
+        ],
+        "name": "Downstream",
+        "pid": "15",
+        "position": {
+          "x": "781.3333333333334",
+          "y": "770.6666666666666"
+        }
+      },
+      {
+        "text": "''Where are we? You tell me, where do you think we are?''\n\n[[I'm not sure.->Answers 2]]\n[[A forest!->Answers 2]]\n[[A scary other dimension that\\'s meant to kill me.->Answers 2]]",
+        "links": [
+          {
+            "name": "I'm not sure.",
+            "link": "Answers 2",
+            "pid": "24"
+          },
+          {
+            "name": "A forest!",
+            "link": "Answers 2",
+            "pid": "24"
+          },
+          {
+            "name": "A scary other dimension that\\'s meant to kill me.",
+            "link": "Answers 2",
+            "pid": "24"
+          }
+        ],
+        "name": "Answers",
+        "pid": "16",
+        "position": {
+          "x": "293.33333333333337",
+          "y": "693"
+        }
+      },
+      {
+        "text": "''But of course! Come on in! It gets very lonely out here.''\n\n//You thank her and sit at the table.//\n\n''You're just in time! I've just finished dinner!''\n\n//She starts pouring a soup from the pot into bowls. It's steaming.//\n\n''I'm trying a new recipe! Tell me what you think.''\n\n//She puts a bowl of soup in front of you. You're immediately horrified by everything about it. Its got a gray hue to the soup and the stench smells like something died. You can see bones and other mystery items in the soup. The old lady stares at you expectantly.//\n\n[[Take a sip->Soup Death]]\n[[Politely decline->Soup Death 2a]]\n[[Run->Soup Death 3]]",
+        "links": [
+          {
+            "name": "Take a sip",
+            "link": "Soup Death",
+            "pid": "20"
+          },
+          {
+            "name": "Politely decline",
+            "link": "Soup Death 2a",
+            "pid": "21"
+          },
+          {
+            "name": "Run",
+            "link": "Soup Death 3",
+            "pid": "22"
+          }
+        ],
+        "name": "Hospitality",
+        "pid": "17",
+        "position": {
+          "x": "411.6666666666667",
+          "y": "689.6666666666666"
+        }
+      },
+      {
+        "text": "//You jump to the side right before you reach the waterfall. You get up and start running. You look back and see the creature clawing to stop itself from sliding down the hill as it tumbles down the waterfall. You grin as you make a break for it.//\n\n\n//You run for what feels like forever as you see a light in the distance.//\n\n[[Investigate->Cops]]",
+        "links": [
+          {
+            "name": "Investigate",
+            "link": "Cops",
+            "pid": "26"
+          }
+        ],
+        "name": "Escape",
+        "pid": "18",
+        "position": {
+          "x": "782",
+          "y": "873.3333333333333"
+        }
+      },
+      {
+        "text": "//You slide down the waterfall and land into a large pond connected with another river.//\n\n[[Swim down the river->Certain Death 3]]\n[[Hide behind the waterfall->Escape 2]]",
+        "links": [
+          {
+            "name": "Swim down the river",
+            "link": "Certain Death 3",
+            "pid": "27"
+          },
+          {
+            "name": "Hide behind the waterfall",
+            "link": "Escape 2",
+            "pid": "28"
+          }
+        ],
+        "name": "Hide and Seek",
+        "pid": "19",
+        "position": {
+          "x": "885.3333333333334",
+          "y": "873.6666666666666"
+        }
+      },
+      {
+        "text": "//You're not a rude fellow, after all, she offered you food and shelter. You hope for the best and take a sip.//\n\n//First thought, ''That's not soup.''//\n\n//You feel a sudden pain in your chest. You clutch your shirt and your vision starts to go hazy. You fall out of your chair as the old lady starts cackling.//\n\n\n\n//''This is how it is. Death by soup.''//\n\n[[Ending:Death by Soup. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "Ending:Death by Soup. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Soup Death",
+        "pid": "20",
+        "position": {
+          "x": "411.6666666666667",
+          "y": "793"
+        }
+      },
+      {
+        "text": "''No? But you haven't even tried it! And I worked so hard on it!''\n\n//The old lady begins to cry.//\n\n[[Apologize and take a sip->Soup Death]]\n[[Say you've already eaten->Soup Death 2b]]",
+        "links": [
+          {
+            "name": "Apologize and take a sip",
+            "link": "Soup Death",
+            "pid": "20"
+          },
+          {
+            "name": "Say you've already eaten",
+            "link": "Soup Death 2b",
+            "pid": "23"
+          }
+        ],
+        "name": "Soup Death 2a",
+        "pid": "21",
+        "position": {
+          "x": "526.6666666666666",
+          "y": "797.9999999999999"
+        }
+      },
+      {
+        "text": "//You smile as you lift up your spoon to dip into the soup. You lean down to the soup and as you're about to take a sip, you flip the table on the old lady and make a break for the door. You reach the door to find it locked. You try kicking it open like you did before but the door doesn't budge.//\n\n//''Uh oh.''//\n\n//You turn around and see the old lady has dissappeared.//\n\n//It's eerily quiet in the house. You take a step away from the door and a sudden pain shoots up through your leg as you fall over. You look down and your foot is gone as your leg is gushing out blood.//\n\n''I think I've got a new idea for a recipe.''\n\n//You look up and the see the old lady with your severed foot. She smirks and when you blink she's gone.//\n\n//You look around frantically for the old lady but she's nowhere to be seen. You slowly start to lose vision as you pass out.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Soup Death 3",
+        "pid": "22",
+        "position": {
+          "x": "528.3333333333333",
+          "y": "693"
+        }
+      },
+      {
+        "text": "//She stops crying and looks at you. Her face goes from sadness to anger.//\n\n''LIAR!!''\n\n//She lunges at you.//\n\n//You close your eyes and raise your arms to protect yourself but nothing happens. You open your eyes up again and the light's out and the lady is gone.//\n\n''Should've just eaten the soup.''\n\n//You turn around as she plunges a knife into your chest and twists it.//\n\n''Such a rude guest.''\n\n[[You have died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You have died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Soup Death 2b",
+        "pid": "23",
+        "position": {
+          "x": "526.6666666666666",
+          "y": "909.6666666666665"
+        }
+      },
+      {
+        "text": "//She laughs.//\n\n''I'm assuming you want to go home. You can either trust in the woods or you can let me stop this nightmare.''\n\n[[Trust in the woods->Woods]]\n[[Let her stop the nightmare->Hospitality]] ",
+        "links": [
+          {
+            "name": "Trust in the woods",
+            "link": "Woods",
+            "pid": "25"
+          },
+          {
+            "name": "Let her stop the nightmare",
+            "link": "Hospitality",
+            "pid": "17"
+          }
+        ],
+        "name": "Answers 2",
+        "pid": "24",
+        "position": {
+          "x": "218.33333333333337",
+          "y": "843"
+        }
+      },
+      {
+        "text": "//You thank her and tell her you don't want to disturb her and you walk back off to the woods. You hear her grumble something lightly under her breath but she closes the door.//\n\n//You march off in another random direction in these woods.//\n\n//You find the road again rather easily. And start to follow it.//\n\n//You eventually get to your car, on the side of the road, in perfect condition. You take out your keys and unlock it and get in. You start down the road and see a city in the distance.//\n\n//You hear a faint voice, from somewhere.//\n\n''You trust in the trees, and the trees trust in you. Protect us, and the world could be a better place.''\n\n//It wasn't just a dream, it was all real.//\n\n[[Ending:Protect the Trees. Congratulations! Replay?->Beginning]]",
+        "links": [
+          {
+            "name": "Ending:Protect the Trees. Congratulations! Replay?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Woods",
+        "pid": "25",
+        "position": {
+          "x": "218.33333333333337",
+          "y": "993"
+        }
+      },
+      {
+        "text": "//You go towards the light and as you step out of the forest, your feet touch the familiar asphalt that is the road. The light is emitting from a small toll booth with two police officers in there.//\n\n[[Run up to them->Psycho Ending]]",
+        "links": [
+          {
+            "name": "Run up to them",
+            "link": "Psycho Ending",
+            "pid": "29"
+          }
+        ],
+        "name": "Cops",
+        "pid": "26",
+        "position": {
+          "x": "780.3333333333333",
+          "y": "1141.6666666666665"
+        }
+      },
+      {
+        "text": "//You make a break for the river ahead, swimming as fast as you can. You look back as the monster slides off the waterfall extremely fast. It flies through the air . . . right on top of you.//\n\n//You go under as you struggle to breathe and fight against the monster. Suddenly, you're grabbed and pulled out of the water. You're eye level with the little girl.//\n\n''Tag! I win!''\n\n//The monster opens its jaws and swallows you whole.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Certain Death 3",
+        "pid": "27",
+        "position": {
+          "x": "1028.6666666666667",
+          "y": "1016.9999999999999"
+        }
+      },
+      {
+        "text": "//You hide behind the waterfall and stay as still as possible. The creature slides down the waterfall and lands a lot further into the pond. It goes onto the land and looks around.//\n\n''Oh now we're playing Hide and Seek? Fun!''\n\n//The monster looks like its sniffing the area then starts to make its way down the river.//\n\n//After a time has passed, you swim to shore. You get up and start to run away, as far away from that creature as you can. You run for what feels like forever as you see a light in the distance.//\n\n[[Investigate->Cops]]",
+        "links": [
+          {
+            "name": "Investigate",
+            "link": "Cops",
+            "pid": "26"
+          }
+        ],
+        "name": "Escape 2",
+        "pid": "28",
+        "position": {
+          "x": "897",
+          "y": "1020.3333333333333"
+        }
+      },
+      {
+        "text": "//You run up to them and frantically start telling them your story about the demon monster and the little girl and your extravagant escape.//\n\n''Some, creature, was chasing you and you escaped through the river? Sure bud, then why aren't your clothes wet?''\n\n//You touch your shirt and you find it completely dry. You're also in different clothes than you remember.//\n\n''Ay Tony, I heard on the news 'bout some runaway crazy. Reckon they're the one?''\n\n''Oh yeah, probably.''\n\n//They take you in and make a couple phone calls. A car pulls up with your therapist.//\n\n''We told you not to run away like that, you could hurt yourself badly. C'mon, let's get you back home.''\n\n//She takes you back to the Psychiatric Hospital.//\n\n[[Ending:Psycho. Congratulations! Replay?->Beginning]]",
+        "links": [
+          {
+            "name": "Ending:Psycho. Congratulations! Replay?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Psycho Ending",
+        "pid": "29",
+        "position": {
+          "x": "780.3333333333333",
+          "y": "1291.6666666666665"
+        }
+      },
+      {
+        "text": "//You rush off farther into the pitch black cave, navigating only by the sounds of the stream. You hear a roar echo into the cave as the creature enters. It runs through the cave with ease and glows brighter. The cave illuminates and you're immediately spotted by the monster.//\n\n//You slip on the wet rocks next to the river and hit your head on the ground. Everything goes blurry.//\n\n''You're not very good at Hide and Seek.''\n\n//The monster picks you up and bites you in half.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Dark Death",
+        "pid": "30",
+        "position": {
+          "x": "551.3333333333334",
+          "y": "1019.6666666666665"
+        }
+      },
+      {
+        "text": "//You stay silent behind your rock as the monster thumps into the cave. It starts to glow brighter and you tuck yourself farther behind your rock.//\n\n''Hide and Seek, huh? Come out, come out, wherever you are!!''\n\n//The monster and girl go farther into the cave.//\n\n//When the light from the monster goes dim, you escape the cave and book it down the hill.//\n\n//You run far, for a long time, until you come across a light in the distance.//\n\n[[Investigate->Cops]]",
+        "links": [
+          {
+            "name": "Investigate",
+            "link": "Cops",
+            "pid": "26"
+          }
+        ],
+        "name": "Hide and Seek 2",
+        "pid": "31",
+        "position": {
+          "x": "623",
+          "y": "1276"
+        }
+      },
+      {
+        "text": "//The cave appears to be too dark for you to go through so you turn back around.//\n\n//Evidently, it appears that you forgot why you went to this cave in the first place.//\n\n//The monster barrels towards you and crushes you under its massive weight.//\n\n''Tag! I win!''\n\n//The monster crushes your torso with its giant palm and everything goes dark.//\n\n[[You died. Restart?->Beginning]]",
+        "links": [
+          {
+            "name": "You died. Restart?",
+            "link": "Beginning",
+            "pid": "1"
+          }
+        ],
+        "name": "Dumb Death",
+        "pid": "32",
+        "position": {
+          "x": "670.3333333333333",
+          "y": "1011"
+        }
+      }
+    ],
+    "name": "Interactive Fiction",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "CF913B21-48EA-4256-8C89-F73318731742"
+  }
